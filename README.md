@@ -1,5 +1,8 @@
-# odiegosilva
+# The Crypt
 
-Creating a 2D game using vanilla JS html and css.
+It's a 2D game made whit javascript, HTML 5 nad CSS 3.
+
+New updates coming soon 🔜 ...
+
 
 
