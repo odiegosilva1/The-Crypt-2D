@@ -4,7 +4,7 @@
 
 - create animation
 - frames
-  **Idle**
+- **Idle**
 - add more sprites
 - create tiles 
 
