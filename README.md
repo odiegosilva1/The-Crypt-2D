@@ -4,10 +4,6 @@
 
 * [itch.io](https://odiegosilva.itch.io/thecrypt)
 
-- create animation
-- frames
-- **Idle**
-- add more sprites
-- create tiles 
-
+**Ide**
+*Scratch animation Ideas 2d plataform game.
 
