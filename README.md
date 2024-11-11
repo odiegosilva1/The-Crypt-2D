@@ -17,18 +17,6 @@ Cada pasta de projeto inclui:
 
 > **Nota**: Alguns jogos ainda estão em fase de protótipo e podem conter bugs ou mecânicas em desenvolvimento.
 
-## 🚀 Como Executar os Jogos Localmente
-
-Para rodar os projetos no seu computador, siga os passos abaixo:
-
-1. Clone este repositório:
-    ```bash
-    git clone https://github.com/seu-usuario/seu-repositorio.git
-    ```
-2. Acesse a pasta do projeto desejado:
-    ```bash
-    cd nome-do-projeto
-    ```
 3. Confira o README específico de cada projeto para instruções detalhadas de instalação e execução.
 
 ## 🛠️ Tecnologias Utilizadas
