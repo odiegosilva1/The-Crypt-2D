@@ -1,4 +1,3 @@
-
 # 🎮 Protótipos e Projetos de Jogos Independentes
 
 Bem-vindo ao repositório de **projetos e protótipos de jogos independentes**! Este espaço foi criado para armazenar, documentar e compartilhar experimentos e conceitos de jogos desenvolvidos de forma independente.
@@ -10,6 +9,7 @@ Explore e aproveite para testar as demos e protótipos disponíveis. Feedbacks s
 Este repositório contém uma variedade de projetos de jogos, desde conceitos experimentais até protótipos jogáveis. Cada projeto busca explorar novas mecânicas, estilos visuais e narrativas, servindo tanto como prática quanto como inspiração.
 
 Cada pasta de projeto inclui:
+
 - Descrição do projeto
 - Tecnologias usadas
 - Instruções de execução
@@ -37,3 +37,4 @@ Seu feedback é essencial! Caso tenha sugestões, encontre bugs ou queira discut
 
 Este repositório está licenciado sob a [Licença MIT](LICENSE), o que permite liberdade para uso e modificação.
 
+2024
