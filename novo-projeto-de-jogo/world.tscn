@@ -1,0 +1,18 @@
+[gd_scene load_steps=3 format=3 uid="uid://cb0bfhhl31q5"]
+
+[sub_resource type="BoxMesh" id="BoxMesh_8xyap"]
+size = Vector3(20, 1, 20)
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_lmb5k"]
+
+[node name="world" type="Node3D"]
+
+[node name="ground" type="MeshInstance3D" parent="."]
+mesh = SubResource("BoxMesh_8xyap")
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 0.807671, 0.589633, 0, -0.589633, 0.807671, 0.166526, 7.32629, 7.0859)
+
+[node name="player" type="MeshInstance3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.53266, 0)
+mesh = SubResource("CapsuleMesh_lmb5k")
