@@ -31,7 +31,7 @@ albedo_color = Color(0.886275, 0.152941, 0.0862745, 1)
 [node name="world" type="Node3D"]
 
 [node name="ground" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.0277853, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -0.196875, -0.202299, 0.537872)
 mesh = SubResource("BoxMesh_8xyap")
 
 [node name="StaticBody3D" type="StaticBody3D" parent="ground"]
@@ -40,7 +40,7 @@ mesh = SubResource("BoxMesh_8xyap")
 shape = SubResource("ConcavePolygonShape3D_fto5v")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.957783, 0.287494, 0, -0.287494, 0.957783, 0.0914647, 4.94048, 5.35174)
+transform = Transform3D(1, 0, 0, 0, 0.726611, 0.68705, 0, -0.68705, 0.726611, 0, 10.5251, 11.6139)
 
 [node name="player" type="CharacterBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.29652, 0)
@@ -61,7 +61,7 @@ shape = SubResource("CapsuleShape3D_n03q6")
 environment = ExtResource("1_pebhx")
 
 [node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
-transform = Transform3D(0.927946, -0.138641, -0.345969, 0.306157, -0.245856, 0.919686, -0.212565, -0.95934, -0.185696, -1.75937, 10.1332, 11.3401)
+transform = Transform3D(0.927946, -0.138641, -0.345969, 0.306157, -0.245856, 0.919686, -0.212565, -0.95934, -0.185695, -1.75937, 8.19795, 11.3401)
 light_indirect_energy = 2.0
 shadow_enabled = true
 shadow_opacity = 0.8
