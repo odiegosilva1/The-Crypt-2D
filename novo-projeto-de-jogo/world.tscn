@@ -40,7 +40,7 @@ mesh = SubResource("BoxMesh_8xyap")
 shape = SubResource("ConcavePolygonShape3D_fto5v")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.726611, 0.68705, 0, -0.68705, 0.726611, 0, 10.5251, 11.6139)
+transform = Transform3D(1, 0, 0, 0, 0.78115, 0.624343, 0, -0.624343, 0.78115, 0, 5.6466, 11.6139)
 
 [node name="player" type="CharacterBody3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.29652, 0)
