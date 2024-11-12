@@ -1,11 +1,24 @@
-[gd_scene load_steps=4 format=3 uid="uid://cb0bfhhl31q5"]
+[gd_scene load_steps=7 format=3 uid="uid://cb0bfhhl31q5"]
+
+[ext_resource type="Texture2D" uid="uid://c17b6uvjjvapr" path="res://assets/EveningSkyHDRI031B_2K-TONEMAPPED.jpg" id="1_xkmvl"]
 
 [sub_resource type="BoxMesh" id="BoxMesh_8xyap"]
 size = Vector3(20, 1, 20)
 
 [sub_resource type="CapsuleMesh" id="CapsuleMesh_lmb5k"]
 
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_t8c6s"]
+panorama = ExtResource("1_xkmvl")
+
+[sub_resource type="Sky" id="Sky_xmmsb"]
+sky_material = SubResource("PanoramaSkyMaterial_t8c6s")
+
 [sub_resource type="Environment" id="Environment_0fmq6"]
+background_mode = 2
+sky = SubResource("Sky_xmmsb")
+ssr_enabled = true
+ssao_enabled = true
+glow_normalized = true
 
 [node name="world" type="Node3D"]
 
@@ -13,11 +26,17 @@ size = Vector3(20, 1, 20)
 mesh = SubResource("BoxMesh_8xyap")
 
 [node name="Camera3D" type="Camera3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 0.807671, 0.589633, 0, -0.589633, 0.807671, 0.166526, 7.32629, 7.0859)
+transform = Transform3D(1, 0, 0, 0, 0.922552, 0.385874, 0, -0.385874, 0.922552, 0.0914647, 3.73213, 4.49155)
 
 [node name="player" type="MeshInstance3D" parent="."]
-transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.53266, 0)
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.89596, 0)
 mesh = SubResource("CapsuleMesh_lmb5k")
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]
 environment = SubResource("Environment_0fmq6")
+
+[node name="DirectionalLight3D" type="DirectionalLight3D" parent="."]
+transform = Transform3D(0.927946, -0.138641, -0.345969, 0.306157, -0.245856, 0.919686, -0.212565, -0.95934, -0.185696, -1.75937, 10.1332, 11.3401)
+shadow_enabled = true
+shadow_opacity = 0.8
+shadow_blur = 2.0
